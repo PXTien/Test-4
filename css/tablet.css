@@ -1,0 +1,110 @@
+@media screen and (min-width: 576px) and (max-width: 993px) {
+    .name {
+        padding: 1px 40px;
+    }
+    .nav-bar {
+        padding: 24px 14px;
+    }
+    .target-title {
+        padding-left: 50px;
+    }
+    #target p {
+        padding-left: 50px;
+    }
+    #job-info .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .experience {
+        grid-row: 1/3;
+    }
+    .education {
+        grid-row: 2/4;
+    }
+    .hobbie {
+        grid-row: 3/4;
+    }
+    .experience,
+    .action,
+    .skill,
+    .education,
+    .language,
+    .hobbie {
+        align-self: start;
+    }
+    .experience {
+        /* padding-bottom: 100px; */
+        order: 1;
+    }
+    .action {
+        order: 2;
+    }
+    .skill {
+        order: 3;
+    }
+    .education {
+        padding-bottom: 80px;
+        order: 4;
+    }
+    .hobbie {
+        order: 5;
+    }
+    .language {
+        order: 6;
+    }
+    #certificate .container {
+        padding: 30px 0;
+    }
+    .web {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 10px 10px;
+    }
+    .cert-ele {
+        margin-left: 0;
+    }
+    .web img {
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+    .web--2 {
+        padding-left: 20px;
+    }
+    .web--3 {
+        grid-column: 1/2;
+        border-top: none;
+        padding-top: 10px;
+    }
+    /* .web--2 {
+        padding: 10px 20px;
+    } */
+    .cert-hr {
+        display: block;
+        border-top: 1px solid hsl(33, 59%, 45%);
+    }
+    .project-fix {
+        padding-bottom: 75px;
+    }
+    .project-fix-0 {
+        padding-bottom: 117px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .name {
+        padding: 1px 40px;
+    }
+    /* .nav-bar {
+        margin-left: 30px;
+    } */
+}
+
+@media screen and (min-width: 728px) and (max-width: 993px) {
+    .experience {
+        padding-bottom: 110px;
+    }
+    /* .education {
+    padding-bottom: 150px;
+  } */
+}

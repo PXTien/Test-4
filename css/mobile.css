@@ -1,0 +1,82 @@
+@media screen and (max-width: 576px) {
+    section>.container {
+        width: 50vh;
+    }
+    .name {
+        display: none;
+    }
+    #nav-bar .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .nav-bar {
+        padding: 12px 32px;
+        height: auto;
+    }
+    .nav-bar:last-child {
+        border: none;
+    }
+    #target p {
+        display: block;
+    }
+    #about {
+        padding-left: 30px;
+    }
+    #job-info .container {
+        grid-template-columns: 1fr;
+        width: 45vh;
+    }
+    #certificate .container {
+        padding-left: 25px;
+    }
+    .container-cert {
+        display: block;
+        width: 50vh;
+    }
+    .web {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-top: 22px;
+        font-size: 14px;
+        width: 40vh;
+    }
+    .web img {
+        width: 100%;
+        padding-bottom: 20px;
+        object-fit: cover;
+    }
+    .web--1 {
+        padding-top: 20px;
+    }
+    .web--2 {
+        border-left: none;
+        padding-left: 0;
+        padding-top: 32px;
+        border-top: 1px solid hsl(33, 35%, 69%);
+    }
+    .web--3 {
+        padding-top: 32px;
+    }
+    .cert-ele {
+        margin-left: 0;
+    }
+    .project {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        width: 45vh;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #project h1 {
+        margin-left: 18px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 760px) {
+    .project {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+}
